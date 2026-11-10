@@ -24,4 +24,4 @@
 | --- | --- | --- | --- |
 | `drive_008.jpg` | Một số xe ở xa, kích thước rất nhỏ nên khó xác định chắc lớp. | Chỉ gán box khi phần nhìn thấy còn đủ để nhận diện lớp; trường hợp quá nhỏ/mơ hồ thì không tự đoán. | Theo guideline, vật thể rất nhỏ nếu không thể xác định chắc lớp thì không tự đoán và cần ghi lại ca mơ hồ. |
 | `drive_009.jpg` | Nhiều xe buýt và xe khác chồng lấp, che khuất nhau trong cảnh đông xe. | Vẽ box riêng cho từng xe trên phần nhìn thấy được, không gộp nhiều xe vào một box. | Theo guideline, hai xe chồng lên nhau vẫn phải vẽ hai box riêng trên phần nhìn thấy của từng xe. |
-| `drive_012.jpg` | Có xe bị cắt bởi rìa ảnh, chỉ còn một phần thân xe xuất hiện trong khung hình. | Vẽ box đến đúng rìa ảnh trên phần xe còn nhìn thấy, không đoán phần nằm ngoài ảnh. | Theo guideline, vật thể bị cắt khung thì box chạm đúng rìa ảnh và không suy đoán phần ngoài ảnh. |
+| `drive_012.jpg` | Có xe bị cắt bởi rìa ảnh, chỉ còn một phần thân xe xuất hiện trong khung hình. | Vẽ box đến đúng rìa ảnh trên phần xe còn nhìn thấy, không đoán phần nằm ngoài ảnh. | Theo guideline, vật thể bị cắt khung thì box chạm đúng rìa ảnh và không suy đoán phần ngoài ảnh.|
